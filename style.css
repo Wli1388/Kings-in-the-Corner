@@ -1,0 +1,46 @@
+img{
+  height: 90%;
+  width: 90%;
+}
+button{
+  font-size: 90%;
+  color: greenyellow;
+  background-color: cornflowerblue;
+}
+#decks {
+  grid-row: span 4;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#grid {
+  display: grid;
+  position: relative;
+  height: 90vh;
+  grid-template-rows: repeat(4,25%);
+  grid-template-columns: repeat(5,10%);  
+}
+#grid > div {
+  align-items: center;
+  border: solid green thick;
+  background-color: #008EBA; 
+  color: black;
+  display: flex;  
+  font-size: 2em;
+  justify-content: center;
+}
+#decks > div {
+  padding: 2%;
+  align-items: center;
+  display: flex;
+  height: 90%;
+
+}
+#phase{
+  font-size: 30pt;
+  color:red;
+  position: relative;
+  margin-left: 20%;
+}
+#ending{
+  margin-left: 30%;
+}

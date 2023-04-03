@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src = "playingcards.js"></script>
+  </head>
+  <body onload = "initialize();">
+      <span id = "phase"></span>
+      <div id = "grid">
+        <div id = "decks">
+          <div> <img src = "cardimages/back-blue-75-3.png" onclick = "flipCard();" /> </div>
+          <div id = "flipped"></div>
+          <div>
+            <!--#! -->
+            <a href = "index.html"><button>Reset</button></a> 
+          </div>
+        </div> 
+        
+        <div id = "1" onclick = "getCard(this)"></div> 
+        <div id = "2" onclick = "getCard(this)"></div> 
+        <div id = "3" onclick = "getCard(this)"></div> 
+        <div id = "4" onclick = "getCard(this)"></div> 
+        <div id = "5" onclick = "getCard(this)"></div> 
+        <div id = "6" onclick = "getCard(this)"></div>
+        <div id = "7" onclick = "getCard(this)"></div>
+        <div id = "8" onclick = "getCard(this)"></div>
+        <div id = "9" onclick = "getCard(this)"></div>
+        <div id = "10" onclick = "getCard(this)"></div>
+        <div id = "11" onclick = "getCard(this)"></div>
+        <div id = "12" onclick = "getCard(this)"></div>
+        <div id = "13" onclick = "getCard(this)"></div>
+        <div id = "14" onclick = "getCard(this)"></div> 
+        <div id = "15" onclick = "getCard(this)"></div> 
+        <div id = "16" onclick = "getCard(this)"></div> 
+      </div>
+      <span id = "selectedCard"></span>
+  </body>
+</html>
